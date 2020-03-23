@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+    animation-duration: 1000000000000s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:;
+    animation-fill-mode:;
+    scroll-behavior: smooth;
+
+}
+.icon {
+   
+   position: relative;
+   top: 2em;
+   right: 4em;
+    
+}
+section .container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+    font-style: italic;
+}
+
+section #one {
+    animation-name: backgroundcolors1;
+    
+    animation-duration: 1000000000000s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    font-size: 3em;
+}
+section #two {
+    animation-name: backgroundcolors2;
+    animation-duration: 1000000000000s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 3em;
+    
+}
+section #three {
+    animation-name: backgroundcolors3;
+    animation-duration: 1000000000000s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 3em;
+}
+@keyframes backgroundcolors1 {
+0% {
+background: palevioletred;
+
+}
+
+}
+
+@keyframes backgroundcolors2 {
+0% {
+background: yellow;
+
+}
+
+}
+
+@keyframes backgroundcolors3 {
+0% {
+background: skyblue;
+
+}
+
+}
